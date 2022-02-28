@@ -1,0 +1,38 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgb(63, 63, 63);
+}
+#drum-machine{
+  margin: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#display{
+width: max-content;
+position: relative;
+}
+.drum-pad{
+  font-size: 3vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  border-radius: 3vh;
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.4);
+}
+#Heater-2{
+  padding-right: 3vh;
+  padding-left: 2vh;
+}
+h1{
+  font-size: 5vh;
+  text-align: center;
+}
+#name{
+  text-align: center;
+  font-size: 5vh;
+}
