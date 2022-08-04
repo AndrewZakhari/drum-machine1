@@ -101,7 +101,7 @@ render(){
       <div id="drum-machine">
         <h1>Drum machine</h1>
       <div id='display'>
-        <div>
+
         <button  onClick={() => {
           let audio = new Audio(SoundsArr[0])
           audio.play()
@@ -137,8 +137,7 @@ render(){
         src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"></audio>
         E
         </button>
-        </div>
-        <div>
+
         <button onClick={() => {
           let audio = new Audio(SoundsArr[3])
           audio.play()
@@ -172,7 +171,7 @@ render(){
         src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"></audio>
         D
         </button>
-        </div>
+       
         <button onClick={() => {
           let audio = new Audio(SoundsArr[6])
           audio.play()
